@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: black; */
+    /* height: 150vh; */
+    /* background-image: url('https://jooinn.com/images/model-photography-8.jpg');
+    background-size: cover;
+    background-position: right; */
+}
+
+/* .wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+} */
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: grey;
+}
+
+.nav li a {
+    color: white;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+.nav>li {
+    margin-left: 10px;
+}
+
+/* .hireUsBorder {
+    border: 1px solid black;
+} */
+
+.navbar-nav>li>.hireUs {
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.navbar-nav>li>.hireUs:hover {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-weight: 900;
+}
+
+.navBackgroundColor {
+    background-color: white;
+}
+
+.home-slider {
+    /* padding-bottom: -10% 0; */
+    height: 100vh;
+    width: 100%;
+    /* opacity: 0.2; */
+}
+
+.py-no {
+    padding: 0;
+}
+
+.img {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    left: 0;
+    color: white;
+    /* padding: 2% 0; */
+}
+
+.laptop {
+    position: absolute;
+    top: 350px;
+    left: 500px;
+}
+
+.laptop-slider {
+    width: 100%;
+}
+
+.btn {
+    border: 1px solid grey;
+    background-color: transparent;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.py-top {
+    padding: 18% 0 10% 0;
+}
+
+.explain-text {
+    font-size: 1.7rem;
+}
+
+.second-title {
+    font-size: 4rem;
+}
+
+.red {
+    color: red;
+}
+
+.btn-service {
+    background-image: linear-gradient(to right, red 0%, rgb(253, 77, 77) 51%, rgb(241, 153, 153) 100%);
+    border: none;
+    color: white;
+    padding: 3% 5%;
+}
+
+.btn:hover {
+    background-position: right center;
+}
+
+.paragraph-text {
+    padding: 12%;
+    height: 80vh;
+}
+
+.border1 {
+    border-right: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+
+.border {
+    border-top: 1px solid lightgrey;
+}
+
+.first-text {
+    font-size: 2rem;
+    padding: 5%;
+}
+
+.second-text {
+    font-size: 1.5rem;
+    font-family: Arial;
+    padding: 5%;
+    color: white;
+    opacity: 0;
+}
+
+.pin-img {
+    padding: 5%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#section1 {
+    height: 600px;
+    background-color: pink;
+}
+
+#section2 {
+    height: 600px;
+    background-color: yellow;
+}
+
+.text-selling {
+    padding: 40% 10%;
+}
+
+.text-border {
+    border: 1px solid lightgrey;
+    margin-bottom: 5%;
+}
+
+.bg-grey {
+    background-color: #F8F9FB;
+    margin-left: -30px;
+    margin-top: -30px;
+    padding: 160px 40px 90px 90px;
+    height: 680px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.py-bottom {
+    margin: 10% 0;
+}
+
+.bg-stairs {
+    background-image: url(bg-stairs-2f58a3eec8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20%;
+}
+
+.btn-hire {
+    background-image: linear-gradient(to right, red 0%, rgb(253, 77, 77) 51%, rgb(252, 147, 105) 100%);
+    padding: 2% 4%;
+    border: none;
+    color: white;
+    font-size: 1.7rem;
+    transition-timing-function: ease;
+    margin: 2%;
+}
+
+.btn-join {
+    background-image: none;
+    background-color: white;
+    color: rgb(99, 95, 95);
+}
+
+.btn-hire:hover {
+    background-image: linear-gradient(to right, white 0%, rgb(253, 77, 77) 51%, red 100%);
+    box-shadow: 0 0 5px #eee;
+    color: black;
+}
+
+.btn-join:hover {
+    background-image: linear-gradient(to right, white 0%, white 51%, rgb(77, 73, 73) 100%);
+    color: red;
+}
+
+.global-header {
+    color: white;
+    margin-bottom: 7%;
+}
+
+.py-row {
+    padding: 3%;
+}
